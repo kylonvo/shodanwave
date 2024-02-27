@@ -60,7 +60,7 @@ def main() :
    # print "Usage: python shodanwave.py --help"
    sys.exit(0)
  except Exception as e:
-   print "Usage: python shodanwave.py --help"
+   print ("Usage: python shodanwave.py --help")
    sys.exit(0)
 
  def signal_handler(signal, frame):
